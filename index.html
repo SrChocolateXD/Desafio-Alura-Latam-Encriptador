@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="imagenes/icono.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo alura latam">
+    </header>
+    <main>
+        <section class="container-uno">
+            <div class="container-texto">
+                <textarea class="texto" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="container-alerta">
+                <span>!</span>
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="container-botones">
+                <input class="boton-encriptar" type="submit" value="Encriptar">
+                <input class="boton-desencriptar" disabled type="submit" value="Desencriptar">
+            </div>
+        </section>
+        <section class="container-dos">
+            <div class="container-imagen-lupa">
+                <img src="imagenes/Muñeco.png" alt="hombre con lupa">
+            </div>
+            <div class="container-texto-lupa">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="container-boton-copiar">
+                <input class="boton-copiar  ocultar-boton" type="submit" value="copiar">
+            </div>
+            <div class="container-resultado ocultar">
+                <textarea class="texto-digitado"></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="derechos">
+            <p></p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
